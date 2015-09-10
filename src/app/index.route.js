@@ -2,19 +2,20 @@
   'use strict';
 
   angular
-    .module('cantinaCs')
+    .module('sistemaCantina')
     .config(routeConfig);
 
-  function routeConfig($routeProvider) {
-    $routeProvider
-      .when('/', {
+  /** @ngInject */
+  function routeConfig($stateProvider, $urlRouterProvider) {
+    $stateProvider
+      .state('home', {
+        url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
         controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
       });
+
+    $urlRouterProvider.otherwise('/');
   }
 
 })();

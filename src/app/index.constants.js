@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('cantinaCs')
+    .module('sistemaCantina')
     .constant('malarkey', malarkey)
     .constant('toastr', toastr)
     .constant('moment', moment);

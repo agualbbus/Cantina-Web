@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('cantinaCs', ['ngAnimate', 'ngTouch', 'ngSanitize', 'ngRoute', 'ngMaterial']);
+    .module('sistemaCantina', ['ui.router', 'ngMaterial']);
 
 })();

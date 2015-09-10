@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('cantinaCs')
+    .module('sistemaCantina')
     .directive('acmeMalarkey', acmeMalarkey);
 
   /** @ngInject */

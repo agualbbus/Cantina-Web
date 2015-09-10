@@ -3,30 +3,17 @@
     "version": "0.12.1",
     "props": {
       "angularVersion": "~1.4.0",
-      "angularModules": [
-        {
-          "key": "animate",
-          "module": "ngAnimate"
-        },
-        {
-          "key": "touch",
-          "module": "ngTouch"
-        },
-        {
-          "key": "sanitize",
-          "module": "ngSanitize"
-        }
-      ],
+      "angularModules": [],
       "jQuery": {
-        "key": "none"
+        "key": "zepto"
       },
       "resource": {
         "key": "none",
         "module": null
       },
       "router": {
-        "key": "angular-route",
-        "module": "ngRoute"
+        "key": "ui-router",
+        "module": "ui.router"
       },
       "ui": {
         "key": "angular-material",

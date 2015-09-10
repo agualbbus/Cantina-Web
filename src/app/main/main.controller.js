@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('cantinaCs')
+    .module('sistemaCantina')
     .controller('MainController', MainController);
 
   /** @ngInject */
@@ -11,7 +11,7 @@
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
-    vm.creationDate = 1436389737304;
+    vm.creationDate = 1441916468692;
     vm.showToastr = showToastr;
 
     activate();
